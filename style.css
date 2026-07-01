@@ -1,0 +1,205 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f4fff4;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:40px 15px;
+}
+
+
+.container{
+    width:100%;
+    max-width:500px;
+}
+
+.profile-card{
+    background:#fff;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 20px 45px rgba(0,0,0,.12);
+}
+
+.top-section{
+
+    background:linear-gradient(135deg,#1fa463,#0b7d43);
+
+    color:#fff;
+
+    text-align:center;
+
+    padding:35px 25px;
+}
+
+.top-section img{
+
+    width:140px;
+
+    height:140px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    border:6px solid white;
+
+    margin-bottom:18px;
+}
+
+.top-section h1{
+
+    font-size:30px;
+
+    margin-bottom:5px;
+}
+
+.top-section p{
+
+    opacity:.9;
+}
+
+.status{
+
+    display:inline-block;
+
+    margin-top:15px;
+
+    padding:8px 18px;
+
+    background:rgba(255,255,255,.18);
+
+    border-radius:30px;
+
+    font-size:14px;
+}
+
+.content{
+
+    padding:25px;
+}
+
+.card{
+
+    background:#fafafa;
+
+    border-radius:18px;
+
+    padding:20px;
+
+    margin-bottom:20px;
+
+    border:1px solid #ececec;
+}
+
+.card h2{
+
+    color:#11814a;
+
+    margin-bottom:18px;
+
+    font-size:20px;
+}
+
+.info{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    margin-bottom:15px;
+
+    border-bottom:1px solid #eee;
+
+    padding-bottom:10px;
+}
+
+.info span{
+
+    color:#475569;
+}
+
+
+.info strong{
+
+    color:#222;
+}
+
+.alert{
+
+    background:#ecfdf5;
+
+    color:#0f7a3a;
+
+    padding:15px;
+
+    border-left:5px solid #16a34a;
+
+    border-radius:10px;
+
+    margin-bottom:18px;
+}
+
+.location{
+
+    color:#1f2937;
+
+    line-height:1.7;
+
+    margin-bottom:20px;
+}
+
+.map-btn:hover{
+
+    background:#0b7f49;
+}
+
+.call-btn,
+
+
+.map-btn{
+
+    display:block;
+
+    text-decoration:none;
+
+    text-align:center;
+
+    color:white;
+
+    padding:15px;
+
+    border-radius:12px;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    transition:.3s;
+}
+
+.call-btn{
+
+    background:#16a34a;
+}
+
+.call-btn:hover{
+
+    background:#13813d;
+}
+
+.map-btn{
+
+    background:#0ea562;
+}
+
+.map-btn:hover{
+
+    background:#0b7f49;
+}
+
